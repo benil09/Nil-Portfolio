@@ -1,6 +1,6 @@
 import React from 'react'
 import {HERO_CONTENT} from "../constants/index.js"
-import profilePic from "../assets/kevinProfilePic.jpg"
+import profilePic from "../assets/kevinProfile.jpg"
 import {motion} from "framer-motion"
 
 function Hero() {
