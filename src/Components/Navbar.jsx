@@ -11,10 +11,10 @@ function Navbar() {
           <h1 className='text-4xl font-bold '>Portfolio</h1>
         </div>
         <div className='flex m-8 items-center justify-center gap-4 text-2xl'>
-            <FaGithub/>
-            <FaInstagram/>
+            <a target='_blank' href="https://github.com/benil09"><FaGithub/></a>
+            <a href="https://www.instagram.com/_hola_its.nil_/"><FaInstagram/></a>
             <FaTwitter/>
-            <FaLinkedin/>
+            <a href="https://www.linkedin.com/in/nil-kamal-93945a294/"><FaLinkedin/></a>
 
         </div>
     </nav>
