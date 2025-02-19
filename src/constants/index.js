@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+
 
 export const HERO_CONTENT = `I am a passionate full-stack developer and UI/UX designer dedicated to crafting robust, scalable, and user-centric web applications. With expertise in front-end technologies like React and Tailwind CSS, and proficiency in back-end technologies such as Node.js, MongoDB, and MySQL, I specialize in building seamless, high-performing solutions. My hands-on experience includes creating responsive interfaces, innovative IoT projects, secure authentication systems, and intuitive designs that enhance user experiences. I thrive on leveraging my technical and design expertise to drive impactful business outcomes while delivering exceptional and aesthetically pleasing digital products.`;
 
@@ -58,7 +58,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["HTML", "CSS", "Firebase"],
   },
   {
     title: "Portfolio Website",
@@ -67,13 +67,7 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: [ "React", "Tailwind","Framer Motion"],
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  
 ];
 
 export const CONTACT = {
