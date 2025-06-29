@@ -16,6 +16,7 @@ function Hero() {
                 className='pb-16 text-6xl flex font-bold tracking-tight lg:mt-16 lg:text-8xl'>Nilkamal Priydarshi</motion.h1>
                 <span className='bg-gradient-to-r from-pink-400 via-slate-400 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent justify-start '>Full Stack Developer </span>
                 <p className='mt-5 my-2 max-w-xl py-6  tracking-tighter'>{HERO_CONTENT}</p>
+                <a className='px-6 py-2  bg-neutral-900 my-4 text-xl font-medium text-purple-600 rounded-full mx-1 hover:bg-slate-300 transition duration-200 cursor-pointer'> <span className=''> Resume </span></a>
             </div>
             </div>
             <div className="w-full  lg:w-1/3 lg:p-8">
