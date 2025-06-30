@@ -2,6 +2,7 @@ import keepnotes from "../assets/projects/keepnotes.png";
 import project1 from "../assets/projects/project-1.png";
 import design from "../assets/projects/design.png";
 import zerodha from "../assets/projects/zerodha.png"
+import gardener from "../assets/projects/gardener.png"
 
 export const HERO_CONTENT = `I am a passionate full-stack developer and UI/UX designer dedicated to crafting robust, scalable, and user-centric web applications. With expertise in front-end technologies like React and Tailwind CSS, and proficiency in back-end technologies such as Node.js, MongoDB, and MySQL, I specialize in building seamless, high-performing solutions. My hands-on experience includes creating responsive interfaces, innovative IoT projects, secure authentication systems, and intuitive designs that enhance user experiences. I thrive on leveraging my technical and design expertise to drive impactful business outcomes while delivering exceptional and aesthetically pleasing digital products.`;
 
@@ -117,6 +118,24 @@ export const projects = {
   image: zerodha, // Replace with the actual image import if available
   tags: ["React", "Bootstrap", "Responsive Design"],
   githubLink: "https://github.com/benil09/zerorhaClone", // Replace with actual GitHub repo link
+  externalLink: "#" // Replace with deployed project link if hosted
+},
+{
+  id: 5,
+  name: "Smart Gardening System",
+  description:
+    "An IoT-powered Smart Gardening System designed to automate plant care by monitoring soil moisture and environmental conditions. The system uses real-time data to efficiently manage watering schedules, ensuring optimal plant health with minimal manual intervention.",
+  bullets: [
+    "Automated watering system based on soil moisture levels.",
+    "Soil moisture sensor triggers watering when moisture falls below 30%.",
+    "Displays real-time temperature and moisture data on a responsive web interface.",
+    "Built using IoT technologies integrated with a web dashboard for easy monitoring.",
+    "Future enhancement possibilities include mobile notifications and advanced plant health analytics."
+  ],
+  status: "The core functionality, including moisture detection and automated watering, is fully implemented. The system's web interface displays live data, with further plans to expand into mobile alerts and advanced monitoring.",
+  image:gardener, // Replace with the actual image import if available
+  tags: ["IoT", "React", "Automation", "Web Dashboard","Firebase"],
+  githubLink: "https://github.com/benil09/gardener", // Replace with actual GitHub repo link if available
   externalLink: "#" // Replace with deployed project link if hosted
 }
   ],

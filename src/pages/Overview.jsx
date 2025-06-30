@@ -55,7 +55,7 @@ const Overview = () => {
 
       <div className="flex gap-4">
         <a
-          href={project.github}
+          href={project.githubLink}
           target="_blank"
           rel="noopener noreferrer"
           className="bg-gray-800 text-white px-5 py-2 cursor-pointer rounded hover:bg-gray-700 transition"
