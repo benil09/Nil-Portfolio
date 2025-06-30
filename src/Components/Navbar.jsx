@@ -1,4 +1,4 @@
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 function Navbar() {
   return (
     <nav className="mb-20 flex   items-center justify-between py-6 ">
@@ -11,7 +11,7 @@ function Navbar() {
         || यद् भावं तद् भवति ||
       </div>
       <div className="flex m-8 items-center justify-center gap-4 text-2xl">
-        <a target="_blank" href="https://github.com/benil09">
+        <a target="_blank" rel="noopener noreferrer"  href="https://github.com/benil09">
           <FaGithub />
         </a>
         <a href="https://www.instagram.com/_hola_its.nil_/">
