@@ -17,7 +17,7 @@ function Navbar() {
         <a href="https://www.instagram.com/_hola_its.nil_/">
           <FaInstagram />
         </a>
-        <FaTwitter />
+        
         <a href="https://www.linkedin.com/in/nil-kamal-93945a294/">
           <FaLinkedin />
         </a>

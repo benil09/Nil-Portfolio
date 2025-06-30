@@ -26,6 +26,7 @@ const FeaturedProject = ({
 }) => {
   const navigate = useNavigate();
   const isLeft = imagePosition === "left";
+  console.log("Image prop:", image);
   return (
     <div onClick={() => navigate(`/project/${id}`)} className={`w-full flex flex-col md:flex-row items-center justify-between gap-6 mb-16 cursor-pointer hover:opacity-90 transition`}>
       <div className="bg-gray-400 rounded-md w-full md:w-[400px] h-[250px] flex-shrink-0">
@@ -102,7 +103,7 @@ const OtherProject = ({
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub Link"
-            className="hover:text-gray-900 transition"
+            className="hover:text-gray-200 transition"
           >
           <FaGithub/>
           </a>
@@ -111,7 +112,7 @@ const OtherProject = ({
             target="_blank"
             rel="noopener noreferrer"
             aria-label="External Link"
-            className="hover:text-gray-900 transition"
+            className="transition hover:text-gray-200"
           >
            <FaExternalLinkAlt />
 
