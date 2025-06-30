@@ -1,6 +1,7 @@
 import keepnotes from "../assets/projects/keepnotes.png";
 import project1 from "../assets/projects/project-1.png";
-import design from "../assets/projects/design.png"
+import design from "../assets/projects/design.png";
+import zerodha from "../assets/projects/zerodha.png"
 
 export const HERO_CONTENT = `I am a passionate full-stack developer and UI/UX designer dedicated to crafting robust, scalable, and user-centric web applications. With expertise in front-end technologies like React and Tailwind CSS, and proficiency in back-end technologies such as Node.js, MongoDB, and MySQL, I specialize in building seamless, high-performing solutions. My hands-on experience includes creating responsive interfaces, innovative IoT projects, secure authentication systems, and intuitive designs that enhance user experiences. I thrive on leveraging my technical and design expertise to drive impactful business outcomes while delivering exceptional and aesthetically pleasing digital products.`;
 
@@ -99,6 +100,25 @@ export const projects = {
       githubLink: "#",
       externalLink: "https://www.figma.com/design/H3Gklrrn27SuGiwaFmHKtg/InterlayProject?node-id=1-3&t=X1zs40HU3BGyvpdn-1",
     },
+    {
+  id: 4,
+  name: "Zerodha Frontend Clone",
+  description:
+    "A pixel-perfect, fully responsive frontend clone of the Zerodha website built using React. The project replicates the structure, design, and core UI/UX of Zerodha, along with functional routing and navigation features, offering a near-real experience of the actual platform.",
+  bullets: [
+    "Fully responsive design replicating Zerodha's layout.",
+    "Implemented client-side routing with React Router.",
+    "Interactive homepage with modern UI components.",
+    "Pricing, product, and awards sections integrated with reusable components.",
+    "Optimized for all screen sizes using Bootstrap and responsive utilities.",
+    "Clean, maintainable code structure following modern React best practices."
+  ],
+  status: "The project is feature-complete from a frontend perspective. Future enhancements may include backend integration to make the clone functional for real-time trading simulations.",
+  image: zerodha, // Replace with the actual image import if available
+  tags: ["React", "Bootstrap", "Responsive Design"],
+  githubLink: "https://github.com/benil09/zerorhaClone", // Replace with actual GitHub repo link
+  externalLink: "#" // Replace with deployed project link if hosted
+}
   ],
 };
 
