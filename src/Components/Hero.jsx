@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { MdOutlineFileDownload } from "react-icons/md";
 import profilePic from "../assets/kevinProfile.jpg";
 import { HERO_CONTENT } from "../constants/index.js";
-import resume from "../assets/ResumeNil.pdf"
+import resume from "../assets/resume.pdf"
 
 function Hero() {
   return (
