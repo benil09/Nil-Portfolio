@@ -1,8 +1,8 @@
 import keepnotes from "../assets/projects/keepnotes.png";
-import project1 from "../assets/projects/project-1.png";
 import design from "../assets/projects/design.png";
 import zerodha from "../assets/projects/zerodha.png"
 import gardener from "../assets/projects/gardener.png"
+import baazar from "../assets/projects/baazar.png"
 
 export const HERO_CONTENT = `I am a passionate full-stack developer and UI/UX designer dedicated to crafting robust, scalable, and user-centric web applications. With expertise in front-end technologies like React and Tailwind CSS, and proficiency in back-end technologies such as Node.js, MongoDB, and MySQL, I specialize in building seamless, high-performing solutions. My hands-on experience includes creating responsive interfaces, innovative IoT projects, secure authentication systems, and intuitive designs that enhance user experiences. I thrive on leveraging my technical and design expertise to drive impactful business outcomes while delivering exceptional and aesthetically pleasing digital products.`;
 
@@ -64,22 +64,22 @@ export const projects = {
     },
     {
       id: 2,
-      name: "Full Stack Auth System",
+      name: "Baazar - Online Marketplace",
       description:
-        "Full Stack Authentication System is a secure, production-ready user authentication solution built using the MERN stack. The system provides essential authentication features, including user registration, login, and secure token-based session management, ensuring both data security and smooth user experience.",
+        "Baazar is a full-stack e-commerce web application designed to provide a seamless online shopping experience. It allows users to browse products, add them to a cart, and securely place orders. Built with the MERN stack, Baazar ensures smooth integration of frontend, backend, and database for a complete marketplace solution.",
 
       bullets: [
-        "Secure user registration and login system",
-        "Passwords encrypted with bcryptJS for enhanced security",
-        "Token-based authentication using JWT for session management",
-        "Responsive and user-friendly UI",
-        "Frontend and backend fully integrated with MongoDB for data persistence"
+        "User-friendly product browsing and search functionality",
+        "Add to cart, wishlist, and order management features",
+        "Secure authentication and authorization with JWT",
+        "Integrated payment gateway for seamless transactions",
+        "Responsive and intuitive UI for both desktop and mobile users"
       ],
-      tags: ["ExpressJS", "MongoDB", "NodeJS", "React", "bcryptJS", "JWT"],
-      githubLink: "#",
+      tags: ["MongoDB", "ExpressJS", "React", "NodeJS", "JWT", "Payment Gateway"],
+      githubLink: "https://github.com/benil09/baazar",
       externalLink: "#",
       imagePosition: "right",
-      image: project1,
+      image: baazar,
     },
   ],
   others: [

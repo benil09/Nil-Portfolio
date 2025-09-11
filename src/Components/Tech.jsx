@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaFigma, FaGithub, FaJava, FaNodeJs, FaPython } from "react-icons/fa";
+import { FaFigma, FaGithub,FaDocker,  FaNodeJs, FaPython } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiExpress, SiMongodb, SiMysql } from "react-icons/si";
 import { TbBrandCpp } from "react-icons/tb";
@@ -57,6 +57,12 @@ function Tech() {
         <div className="rounded-2xl border-4 border-neutral-800 p-4  hover:border-neutral-600 transition duration-200">
           <FaGithub
             style={{ color: "white" }}
+            className="text-7xl text-white-400"
+          />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4  hover:border-neutral-600 transition duration-200">
+          <FaDocker
+            style={{ color: "#2496ED" }}
             className="text-7xl text-white-400"
           />
         </div>

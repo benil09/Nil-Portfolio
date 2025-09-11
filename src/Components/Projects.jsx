@@ -1,6 +1,5 @@
 import { projects } from "../constants";
 import { FaGithub,FaExternalLinkAlt  } from "react-icons/fa";
-import projectimg from "../assets/projects/project-4.jpg"
 import { useNavigate } from "react-router-dom";
 
 
